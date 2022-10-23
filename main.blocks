@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="pfpEuLS3Cjp^DVw}.[,u" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="skcmy/~lyY*u7iZ!bnGp"><value name="img"><shadow type="background_image_picker" id="ElYAnP,y-dVp}OXoMkMN"><field name="img">assets.image`Concert hall`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.cCbP{nQfye!YO}w=%;]z"}}</data></shadow></value><next><block type="set_current_tilemap" id="QgLnDHTP@4`^*f)4,H0-"><value name="tilemap"><shadow type="tiles_tilemap_editor"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow><block type="tiles_tilemap_editor" id="2E5.hOY)As]HzGL12?]t"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></value></block></next></block></statement></block><block type="tiles_tilemap_editor" id="a)%Yc4[qP@*QKWjp5ryI" disabled="true" x="410" y="190"><field name="tilemap">tilemap`level3`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level3"}}</data></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=",(FK8DVQReERGmvBz5V@">mySprite</variable><variable type="KIND_SpriteKind" id="!j}Sl$[eQEgMtqG!N5gJ">Player</variable><variable type="KIND_SpriteKind" id="BNx:ZVZGeDOS;NE9^+o0">Projectile</variable><variable type="KIND_SpriteKind" id="jw0BjJdAG3)}0{/ZS2n`">Food</variable><variable type="KIND_SpriteKind" id="-RxYh/_fCXvL1ro$t1T8">Enemy</variable></variables><block type="pxt-on-start" id="pfpEuLS3Cjp^DVw}.[,u" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="skcmy/~lyY*u7iZ!bnGp"><value name="img"><shadow type="background_image_picker" id="ElYAnP,y-dVp}OXoMkMN"><field name="img">assets.image`Concert hall`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.cCbP{nQfye!YO}w=%;]z"}}</data></shadow></value><next><block type="set_current_tilemap" id="QgLnDHTP@4`^*f)4,H0-"><value name="tilemap"><shadow type="tiles_tilemap_editor"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow><block type="tiles_tilemap_editor" id="2E5.hOY)As]HzGL12?]t"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></value><next><block type="variables_set" id="{:?*u1X*jjApR*;zPcuE"><field name="VAR" id=",(FK8DVQReERGmvBz5V@">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="^HE+p#BZuwtOAEB=6`GT"><value name="img"><shadow type="screen_image_picker" id="-76_7KH+{=N;!8^8~_xz"><field name="img">img`
+4 4 4 . . 4 4 4 4 4 . . . . . . 
+4 5 5 4 4 5 5 5 5 5 4 4 . . . . 
+b 4 5 5 1 5 1 1 1 5 5 5 4 . . . 
+. b 5 5 5 5 1 1 5 5 1 1 5 4 . . 
+. b d 5 5 5 5 5 5 5 5 1 1 5 4 . 
+b 4 5 5 5 5 5 5 5 5 5 5 1 5 4 . 
+c d 5 5 5 5 5 5 5 5 5 5 5 5 5 4 
+c d 4 5 5 5 5 5 5 5 5 5 5 1 5 4 
+c 4 5 5 5 d 5 5 5 5 5 5 5 5 5 4 
+c 4 d 5 4 5 d 5 5 5 5 5 5 5 5 4 
+. c 4 5 5 5 5 d d d 5 5 5 5 5 b 
+. c 4 d 5 4 5 d 4 4 d 5 5 5 4 c 
+. . c 4 4 d 4 4 4 4 4 d d 5 d c 
+. . . c 4 4 4 4 4 4 4 4 5 5 5 4 
+. . . . c c b 4 4 4 b b 4 5 4 4 
+. . . . . . c c c c c c b b 4 . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-76_7KH+{=N;!8^8~_xz"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="4s9~;x_%+p9XQ2LBj!p$"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="tiles_tilemap_editor" id="a)%Yc4[qP@*QKWjp5ryI" disabled="true" x="550" y="-10"><field name="tilemap">tilemap`level3`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level3"}}</data></block></xml>
